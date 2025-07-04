@@ -19,7 +19,11 @@
     "paths": {
       "@/*": ["./client/src/*"],
       "@assets/*": ["./attached_assets/*"],
-      "@shared/*": ["./shared/*"]
+      "@shared/*": ["./shared/*"],
+      "@/lib/*": ["./client/src/lib/*"],
+      "@/components/*": ["./client/src/components/*"],
+      "@/hooks/*": ["./client/src/hooks/*"],
+      "@/pages/*": ["./client/src/pages/*"]
     }
   },
   "include": ["client/src", "shared", "api"],
