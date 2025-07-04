@@ -1,21 +1,12 @@
-# ZooBild React App - Vercel Deployment
+# ZoBild React App - Vercel Deployment
 
-1:1 Kopie der funktionierenden ZooBild React-App von Replit für Vercel Deployment.
+## Status: Alle Dateien im Root
 
-## Features
-- React + TypeScript Frontend
-- Express.js Backend
-- WebGo MySQL-Datenbank Integration  
-- ZooBild API-Integration für Bildsuche
-- Stripe & PayPal Payment-Integration
-- Vollständiges Checkout-System
+Repository: https://github.com/coldseawars/zoobild-react-vercel
 
-## Live-Deployment
-Automatisches Deployment zu Vercel über GitHub Integration.
-
-## Environment Variables
-Alle Environment-Variablen müssen in Vercel konfiguriert werden:
-- MySQL-Verbindung (WebGo)
-- Stripe Keys
-- PayPal Keys  
-- SMTP-Konfiguration
+## Ready for Vercel Deployment
+✅ package.json im Root
+⌅ vite.config.ts im Root
+⌅ tsconfig.json im Root
+✅ vercel.json im Root
+✅ api/index.js für Serverless Functions
